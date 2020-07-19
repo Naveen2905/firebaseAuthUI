@@ -23,7 +23,7 @@ $(function () {
                 console.log("  Name: " + profile.displayName);
                 console.log("  Email: " + profile.email);
                 console.log("  Photo URL: " + profile.photoURL);
-                $('.userPhoto').append(`<img src="${profile.photoURL}" alt="${profile.displayName} Image">`)
+                $('.userPhoto').append(`<img class='image' src="${profile.photoURL}" alt="${profile.displayName} Image">`)
             });
         }
         else {

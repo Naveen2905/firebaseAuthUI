@@ -266,3 +266,12 @@ a {
   width: 85%;
   margin: 0 auto;
 }
+
+.userPhoto {
+  text-align: center;
+}
+
+.userPhoto .image {
+  width: 20%;
+  border-radius: 50%;
+}
