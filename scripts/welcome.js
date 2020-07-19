@@ -6,7 +6,7 @@ $(function () {
     firebase.auth().onAuthStateChanged(function (user) {
         if (user) {
             uid = user.uid
-            console.log(uid);
+            console.log(user);
             // User is signed in.
         } else {
             uid = null
