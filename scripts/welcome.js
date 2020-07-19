@@ -18,6 +18,7 @@ $(function () {
             // you have one. Use User.getToken() instead.
             user.providerData.forEach(function (profile) {
                 console.log("Sign-in provider: " + profile.providerId);
+                $('.userName').html(profile.displayName)
                 console.log("  Provider-specific UID: " + profile.uid);
                 console.log("  Name: " + profile.displayName);
                 console.log("  Email: " + profile.email);
