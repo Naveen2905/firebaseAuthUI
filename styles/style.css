@@ -267,11 +267,11 @@ a {
   margin: 0 auto;
 }
 
-.userPhoto {
+body .userPhoto {
   text-align: center;
 }
 
-.userPhoto .image {
+body .userPhoto .image {
   width: 20%;
   border-radius: 50%;
 }
