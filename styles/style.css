@@ -267,6 +267,10 @@ a {
   margin: 0 auto;
 }
 
+body .heading {
+  text-align: center;
+}
+
 body .userPhoto {
   text-align: center;
 }
