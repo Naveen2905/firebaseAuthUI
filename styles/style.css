@@ -274,4 +274,5 @@ body .userPhoto {
 body .userPhoto .image {
   width: 20%;
   border-radius: 50%;
+  display: inline-block;
 }
